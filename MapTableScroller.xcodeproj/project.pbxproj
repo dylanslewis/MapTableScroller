@@ -1,0 +1,504 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC54D1601BDD6C1B00E7FCD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D15F1BDD6C1B00E7FCD8 /* AppDelegate.swift */; };
+		FC54D1621BDD6C1B00E7FCD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D1611BDD6C1B00E7FCD8 /* ViewController.swift */; };
+		FC54D1651BDD6C1B00E7FCD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC54D1631BDD6C1B00E7FCD8 /* Main.storyboard */; };
+		FC54D1671BDD6C1B00E7FCD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC54D1661BDD6C1B00E7FCD8 /* Assets.xcassets */; };
+		FC54D16A1BDD6C1B00E7FCD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC54D1681BDD6C1B00E7FCD8 /* LaunchScreen.storyboard */; };
+		FC54D1751BDD6C1B00E7FCD8 /* MapTableScrollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D1741BDD6C1B00E7FCD8 /* MapTableScrollerTests.swift */; };
+		FC54D1801BDD6C1B00E7FCD8 /* MapTableScrollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D17F1BDD6C1B00E7FCD8 /* MapTableScrollerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC54D1711BDD6C1B00E7FCD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC54D1541BDD6C1B00E7FCD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC54D15B1BDD6C1B00E7FCD8;
+			remoteInfo = MapTableScroller;
+		};
+		FC54D17C1BDD6C1B00E7FCD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC54D1541BDD6C1B00E7FCD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC54D15B1BDD6C1B00E7FCD8;
+			remoteInfo = MapTableScroller;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC54D15C1BDD6C1B00E7FCD8 /* MapTableScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapTableScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC54D15F1BDD6C1B00E7FCD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC54D1611BDD6C1B00E7FCD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC54D1641BDD6C1B00E7FCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC54D1661BDD6C1B00E7FCD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC54D1691BDD6C1B00E7FCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC54D16B1BDD6C1B00E7FCD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC54D1701BDD6C1B00E7FCD8 /* MapTableScrollerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapTableScrollerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC54D1741BDD6C1B00E7FCD8 /* MapTableScrollerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableScrollerTests.swift; sourceTree = "<group>"; };
+		FC54D1761BDD6C1B00E7FCD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC54D17B1BDD6C1B00E7FCD8 /* MapTableScrollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapTableScrollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC54D17F1BDD6C1B00E7FCD8 /* MapTableScrollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableScrollerUITests.swift; sourceTree = "<group>"; };
+		FC54D1811BDD6C1B00E7FCD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC54D1591BDD6C1B00E7FCD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC54D16D1BDD6C1B00E7FCD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC54D1781BDD6C1B00E7FCD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC54D1531BDD6C1B00E7FCD8 = {
+			isa = PBXGroup;
+			children = (
+				FC54D15E1BDD6C1B00E7FCD8 /* MapTableScroller */,
+				FC54D1731BDD6C1B00E7FCD8 /* MapTableScrollerTests */,
+				FC54D17E1BDD6C1B00E7FCD8 /* MapTableScrollerUITests */,
+				FC54D15D1BDD6C1B00E7FCD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC54D15D1BDD6C1B00E7FCD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC54D15C1BDD6C1B00E7FCD8 /* MapTableScroller.app */,
+				FC54D1701BDD6C1B00E7FCD8 /* MapTableScrollerTests.xctest */,
+				FC54D17B1BDD6C1B00E7FCD8 /* MapTableScrollerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC54D15E1BDD6C1B00E7FCD8 /* MapTableScroller */ = {
+			isa = PBXGroup;
+			children = (
+				FC54D15F1BDD6C1B00E7FCD8 /* AppDelegate.swift */,
+				FC54D1611BDD6C1B00E7FCD8 /* ViewController.swift */,
+				FC54D1631BDD6C1B00E7FCD8 /* Main.storyboard */,
+				FC54D1661BDD6C1B00E7FCD8 /* Assets.xcassets */,
+				FC54D1681BDD6C1B00E7FCD8 /* LaunchScreen.storyboard */,
+				FC54D16B1BDD6C1B00E7FCD8 /* Info.plist */,
+			);
+			path = MapTableScroller;
+			sourceTree = "<group>";
+		};
+		FC54D1731BDD6C1B00E7FCD8 /* MapTableScrollerTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC54D1741BDD6C1B00E7FCD8 /* MapTableScrollerTests.swift */,
+				FC54D1761BDD6C1B00E7FCD8 /* Info.plist */,
+			);
+			path = MapTableScrollerTests;
+			sourceTree = "<group>";
+		};
+		FC54D17E1BDD6C1B00E7FCD8 /* MapTableScrollerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC54D17F1BDD6C1B00E7FCD8 /* MapTableScrollerUITests.swift */,
+				FC54D1811BDD6C1B00E7FCD8 /* Info.plist */,
+			);
+			path = MapTableScrollerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC54D15B1BDD6C1B00E7FCD8 /* MapTableScroller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC54D1841BDD6C1B00E7FCD8 /* Build configuration list for PBXNativeTarget "MapTableScroller" */;
+			buildPhases = (
+				FC54D1581BDD6C1B00E7FCD8 /* Sources */,
+				FC54D1591BDD6C1B00E7FCD8 /* Frameworks */,
+				FC54D15A1BDD6C1B00E7FCD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapTableScroller;
+			productName = MapTableScroller;
+			productReference = FC54D15C1BDD6C1B00E7FCD8 /* MapTableScroller.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC54D16F1BDD6C1B00E7FCD8 /* MapTableScrollerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC54D1871BDD6C1B00E7FCD8 /* Build configuration list for PBXNativeTarget "MapTableScrollerTests" */;
+			buildPhases = (
+				FC54D16C1BDD6C1B00E7FCD8 /* Sources */,
+				FC54D16D1BDD6C1B00E7FCD8 /* Frameworks */,
+				FC54D16E1BDD6C1B00E7FCD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC54D1721BDD6C1B00E7FCD8 /* PBXTargetDependency */,
+			);
+			name = MapTableScrollerTests;
+			productName = MapTableScrollerTests;
+			productReference = FC54D1701BDD6C1B00E7FCD8 /* MapTableScrollerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC54D17A1BDD6C1B00E7FCD8 /* MapTableScrollerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC54D18A1BDD6C1B00E7FCD8 /* Build configuration list for PBXNativeTarget "MapTableScrollerUITests" */;
+			buildPhases = (
+				FC54D1771BDD6C1B00E7FCD8 /* Sources */,
+				FC54D1781BDD6C1B00E7FCD8 /* Frameworks */,
+				FC54D1791BDD6C1B00E7FCD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC54D17D1BDD6C1B00E7FCD8 /* PBXTargetDependency */,
+			);
+			name = MapTableScrollerUITests;
+			productName = MapTableScrollerUITests;
+			productReference = FC54D17B1BDD6C1B00E7FCD8 /* MapTableScrollerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC54D1541BDD6C1B00E7FCD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Dylan Lewis";
+				TargetAttributes = {
+					FC54D15B1BDD6C1B00E7FCD8 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					FC54D16F1BDD6C1B00E7FCD8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FC54D15B1BDD6C1B00E7FCD8;
+					};
+					FC54D17A1BDD6C1B00E7FCD8 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = FC54D15B1BDD6C1B00E7FCD8;
+					};
+				};
+			};
+			buildConfigurationList = FC54D1571BDD6C1B00E7FCD8 /* Build configuration list for PBXProject "MapTableScroller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC54D1531BDD6C1B00E7FCD8;
+			productRefGroup = FC54D15D1BDD6C1B00E7FCD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC54D15B1BDD6C1B00E7FCD8 /* MapTableScroller */,
+				FC54D16F1BDD6C1B00E7FCD8 /* MapTableScrollerTests */,
+				FC54D17A1BDD6C1B00E7FCD8 /* MapTableScrollerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC54D15A1BDD6C1B00E7FCD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC54D16A1BDD6C1B00E7FCD8 /* LaunchScreen.storyboard in Resources */,
+				FC54D1671BDD6C1B00E7FCD8 /* Assets.xcassets in Resources */,
+				FC54D1651BDD6C1B00E7FCD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC54D16E1BDD6C1B00E7FCD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC54D1791BDD6C1B00E7FCD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC54D1581BDD6C1B00E7FCD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC54D1621BDD6C1B00E7FCD8 /* ViewController.swift in Sources */,
+				FC54D1601BDD6C1B00E7FCD8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC54D16C1BDD6C1B00E7FCD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC54D1751BDD6C1B00E7FCD8 /* MapTableScrollerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC54D1771BDD6C1B00E7FCD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC54D1801BDD6C1B00E7FCD8 /* MapTableScrollerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC54D1721BDD6C1B00E7FCD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC54D15B1BDD6C1B00E7FCD8 /* MapTableScroller */;
+			targetProxy = FC54D1711BDD6C1B00E7FCD8 /* PBXContainerItemProxy */;
+		};
+		FC54D17D1BDD6C1B00E7FCD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC54D15B1BDD6C1B00E7FCD8 /* MapTableScroller */;
+			targetProxy = FC54D17C1BDD6C1B00E7FCD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC54D1631BDD6C1B00E7FCD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC54D1641BDD6C1B00E7FCD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC54D1681BDD6C1B00E7FCD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC54D1691BDD6C1B00E7FCD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC54D1821BDD6C1B00E7FCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC54D1831BDD6C1B00E7FCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC54D1851BDD6C1B00E7FCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapTableScroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dylanslewis.MapTableScroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FC54D1861BDD6C1B00E7FCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MapTableScroller/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dylanslewis.MapTableScroller;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FC54D1881BDD6C1B00E7FCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MapTableScrollerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dylanslewis.MapTableScrollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapTableScroller.app/MapTableScroller";
+			};
+			name = Debug;
+		};
+		FC54D1891BDD6C1B00E7FCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MapTableScrollerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dylanslewis.MapTableScrollerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MapTableScroller.app/MapTableScroller";
+			};
+			name = Release;
+		};
+		FC54D18B1BDD6C1B00E7FCD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MapTableScrollerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dylanslewis.MapTableScrollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MapTableScroller;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FC54D18C1BDD6C1B00E7FCD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MapTableScrollerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dylanslewis.MapTableScrollerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MapTableScroller;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC54D1571BDD6C1B00E7FCD8 /* Build configuration list for PBXProject "MapTableScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC54D1821BDD6C1B00E7FCD8 /* Debug */,
+				FC54D1831BDD6C1B00E7FCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC54D1841BDD6C1B00E7FCD8 /* Build configuration list for PBXNativeTarget "MapTableScroller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC54D1851BDD6C1B00E7FCD8 /* Debug */,
+				FC54D1861BDD6C1B00E7FCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC54D1871BDD6C1B00E7FCD8 /* Build configuration list for PBXNativeTarget "MapTableScrollerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC54D1881BDD6C1B00E7FCD8 /* Debug */,
+				FC54D1891BDD6C1B00E7FCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC54D18A1BDD6C1B00E7FCD8 /* Build configuration list for PBXNativeTarget "MapTableScrollerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC54D18B1BDD6C1B00E7FCD8 /* Debug */,
+				FC54D18C1BDD6C1B00E7FCD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC54D1541BDD6C1B00E7FCD8 /* Project object */;
+}
