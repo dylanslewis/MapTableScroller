@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		FC54D1601BDD6C1B00E7FCD8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D15F1BDD6C1B00E7FCD8 /* AppDelegate.swift */; };
-		FC54D1621BDD6C1B00E7FCD8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D1611BDD6C1B00E7FCD8 /* ViewController.swift */; };
 		FC54D1651BDD6C1B00E7FCD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC54D1631BDD6C1B00E7FCD8 /* Main.storyboard */; };
 		FC54D1671BDD6C1B00E7FCD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC54D1661BDD6C1B00E7FCD8 /* Assets.xcassets */; };
 		FC54D16A1BDD6C1B00E7FCD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC54D1681BDD6C1B00E7FCD8 /* LaunchScreen.storyboard */; };
 		FC54D1751BDD6C1B00E7FCD8 /* MapTableScrollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D1741BDD6C1B00E7FCD8 /* MapTableScrollerTests.swift */; };
 		FC54D1801BDD6C1B00E7FCD8 /* MapTableScrollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D17F1BDD6C1B00E7FCD8 /* MapTableScrollerUITests.swift */; };
+		FC54D18E1BDD6C2600E7FCD8 /* MapTableScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D18D1BDD6C2600E7FCD8 /* MapTableScroller.swift */; };
+		FC54D1901BDD6CF400E7FCD8 /* MapTableScroller-Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D18F1BDD6CF400E7FCD8 /* MapTableScroller-Table.swift */; };
+		FC54D1921BDD6DE900E7FCD8 /* MapTableScroller-Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D1911BDD6DE900E7FCD8 /* MapTableScroller-Map.swift */; };
+		FC54D1941BDD855900E7FCD8 /* MapTableScroller-Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D1931BDD855900E7FCD8 /* MapTableScroller-Layout.swift */; };
+		FC54D1961BDD869B00E7FCD8 /* MapTableScroller-Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC54D1951BDD869B00E7FCD8 /* MapTableScroller-Style.swift */; };
+		FC7B54421BDEB851007EAA74 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7B54411BDEB851007EAA74 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		FC54D15C1BDD6C1B00E7FCD8 /* MapTableScroller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapTableScroller.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC54D15F1BDD6C1B00E7FCD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC54D1611BDD6C1B00E7FCD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC54D1641BDD6C1B00E7FCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC54D1661BDD6C1B00E7FCD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC54D1691BDD6C1B00E7FCD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		FC54D17B1BDD6C1B00E7FCD8 /* MapTableScrollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MapTableScrollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC54D17F1BDD6C1B00E7FCD8 /* MapTableScrollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTableScrollerUITests.swift; sourceTree = "<group>"; };
 		FC54D1811BDD6C1B00E7FCD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC54D18D1BDD6C2600E7FCD8 /* MapTableScroller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTableScroller.swift; sourceTree = "<group>"; };
+		FC54D18F1BDD6CF400E7FCD8 /* MapTableScroller-Table.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapTableScroller-Table.swift"; sourceTree = "<group>"; };
+		FC54D1911BDD6DE900E7FCD8 /* MapTableScroller-Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapTableScroller-Map.swift"; sourceTree = "<group>"; };
+		FC54D1931BDD855900E7FCD8 /* MapTableScroller-Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapTableScroller-Layout.swift"; sourceTree = "<group>"; };
+		FC54D1951BDD869B00E7FCD8 /* MapTableScroller-Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MapTableScroller-Style.swift"; sourceTree = "<group>"; };
+		FC7B54411BDEB851007EAA74 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				FC54D15F1BDD6C1B00E7FCD8 /* AppDelegate.swift */,
-				FC54D1611BDD6C1B00E7FCD8 /* ViewController.swift */,
+				FC7B54411BDEB851007EAA74 /* MainViewController.swift */,
+				FC54D18D1BDD6C2600E7FCD8 /* MapTableScroller.swift */,
+				FC54D1951BDD869B00E7FCD8 /* MapTableScroller-Style.swift */,
+				FC54D1931BDD855900E7FCD8 /* MapTableScroller-Layout.swift */,
+				FC54D1911BDD6DE900E7FCD8 /* MapTableScroller-Map.swift */,
+				FC54D18F1BDD6CF400E7FCD8 /* MapTableScroller-Table.swift */,
 				FC54D1631BDD6C1B00E7FCD8 /* Main.storyboard */,
 				FC54D1661BDD6C1B00E7FCD8 /* Assets.xcassets */,
 				FC54D1681BDD6C1B00E7FCD8 /* LaunchScreen.storyboard */,
@@ -192,6 +207,7 @@
 				TargetAttributes = {
 					FC54D15B1BDD6C1B00E7FCD8 = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 5D6MUHPE98;
 					};
 					FC54D16F1BDD6C1B00E7FCD8 = {
 						CreatedOnToolsVersion = 7.0.1;
@@ -255,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC54D1621BDD6C1B00E7FCD8 /* ViewController.swift in Sources */,
+				FC7B54421BDEB851007EAA74 /* MainViewController.swift in Sources */,
+				FC54D1901BDD6CF400E7FCD8 /* MapTableScroller-Table.swift in Sources */,
+				FC54D1941BDD855900E7FCD8 /* MapTableScroller-Layout.swift in Sources */,
+				FC54D1921BDD6DE900E7FCD8 /* MapTableScroller-Map.swift in Sources */,
+				FC54D1961BDD869B00E7FCD8 /* MapTableScroller-Style.swift in Sources */,
 				FC54D1601BDD6C1B00E7FCD8 /* AppDelegate.swift in Sources */,
+				FC54D18E1BDD6C2600E7FCD8 /* MapTableScroller.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,7 +417,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MapTableScroller/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dylanslewis.MapTableScroller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -407,7 +430,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MapTableScroller/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dylanslewis.MapTableScroller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -481,6 +506,7 @@
 				FC54D1861BDD6C1B00E7FCD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC54D1871BDD6C1B00E7FCD8 /* Build configuration list for PBXNativeTarget "MapTableScrollerTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +515,7 @@
 				FC54D1891BDD6C1B00E7FCD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC54D18A1BDD6C1B00E7FCD8 /* Build configuration list for PBXNativeTarget "MapTableScrollerUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +524,7 @@
 				FC54D18C1BDD6C1B00E7FCD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
